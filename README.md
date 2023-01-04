@@ -6,19 +6,25 @@
 # Instructions
 This code was deployed using Windows 10 Home x64 operating system - Processor Intel Core i7-9750H CPU @ 2,6GHz - RAM 32 GB
  
-#Prerequisites
+# Prerequisites
 Python 3.7, Microsoft Visual C++ Redistributables (2010, 2012, 2013, 2015-2019)
  
 # Create a virtual envrironment (optional step)
 python -m venv mosp-env
+
 mosp-env\Scripts\activate.bat
 
 # Install the required packages
 python -m pip install GDAL-3.1.4-cp37-cp37m-win_amd64.whl
+
 python -m pip install Fiona-1.8.18-cp37-cp37m-win_amd64.whl
+
 python -m pip install -r requirements.txt
+
 pip install ipykernel
+
 python -m ipykernel install --user --name mosp-env
+
 pip install notebook
  
 # Run
