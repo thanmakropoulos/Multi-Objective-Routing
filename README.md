@@ -11,7 +11,7 @@ Python 3.7
 
 Microsoft Visual C++ Redistributables (2010, 2012, 2013, 2015-2019)
  
-# Create a virtual envrironment (optional step)
+# Create a virtual environment (optional step)
 python -m venv mosp-env
 
 mosp-env\Scripts\activate.bat
@@ -29,7 +29,7 @@ python -m ipykernel install --user --name mosp-env
 
 pip install notebook
  
-# Run
+# Run the algorithm
 jupyter notebook
  
  
